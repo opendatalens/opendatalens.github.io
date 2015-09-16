@@ -157,24 +157,19 @@ a:visited { color: #D87563; }
 
 
 @media (min-width: 320px) {
-	 .header h1 { font-size: 30px; }
-	 h1 { font-size: 30px; }
-	 .header h2 { font-size: 20px; }
-	 h2 { font-size: 20px; }
-	 .header p { font-size: 10px; }
-	 p { font-size: 10px; }
+	 .header h1, h1 { font-size: 30px; }
+	 .header h2, h2 { font-size: 22px; }
+	 .header p, p { font-size: 15px; }
+
 
 	#illustration { margin-bottom:-215px;}
 	.expand img{ margin-bottom:200px; margin-top:-180px; }
 }
 
 @media (min-width: 482px) {
-	 .header h1 { font-size: 40px; }
-	 .header h2 { font-size: 30px; }
-	 .header p { font-size: 15px; }
-	 h1 { font-size: 40px; }
-	 h2 { font-size: 30px; }
-	 p { font-size: 15px; }
+	 .header h1, h1 { font-size: 40px; }
+	 .header h2, h2 { font-size: 30px; }
+	 .header p, p { font-size: 20px; }
 
 	#illustration { margin-bottom:-215px;}
 	.expand img{ margin-bottom:200px; margin-top:-180px; }
